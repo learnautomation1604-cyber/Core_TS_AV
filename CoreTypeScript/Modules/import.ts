@@ -1,30 +1,13 @@
-import calce from "./export.ts"
+import office from "./export";
+import myclass from "../Variables";
 
-let addtwo = new calce();// instance 
-console.log(addtwo.addition(10,20));
-console.log(addtwo.subraction(10,34));
+// 
 
-console.log(5+4);
+const localjey = new office()
+const classvaraib = new myclass();
 
-class student{
-
-    details=()=>{
-        console.log("Hey i am a student details")
-    }
-    marks=()=>{
-         console.log("Hey i am a student Marks")
-
-    }
-    parents=()=>{
-          console.log("Hey i am a student Parens")
-
-    }
-
-
-}
-
-export default student;
-
+localjey.add();
+localjey.sub();
 
 
 
