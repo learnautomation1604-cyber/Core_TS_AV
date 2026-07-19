@@ -1,0 +1,8 @@
+Define Oops Concepts - Its a paradigm where code is organised around Objects instead of functions
+//Properties of oops concepts would be variables and functions
+// Types of oops concepts - class, Objects, Abstration, Encapsulation, Inheritence, Polymorphism
+// Piller of OOps concepts - Abstration, Encapsulation, Inheritence, Polymorphism
+// class - A class is a blueprint for creating Objects
+// Constructor , method, function, variable, Objects
+// Constructor - 
+

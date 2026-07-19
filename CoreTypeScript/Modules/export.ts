@@ -1,6 +1,6 @@
 class office{
 
-    add(){
+     add(){
         console.log("Hey I am the add method/function from export.ts file")
     }
 
