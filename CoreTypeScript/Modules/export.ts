@@ -1,27 +1,23 @@
-import student from "./import.ts";
+class office{
 
-class calce{
-
-    constructor(){
-
+    add(){
+        console.log("Hey I am the add method/function from export.ts file")
     }
 
-    addition = (a:number, b:number) => {
-        return a+b;
-    }
-
-    subraction = (a:number, b:number) => {
-        return a-b;
+    sub(){
+         console.log("Hey I am the sub method/function from export.ts file")
     }
 
 
 
 }
 
-export default calce;
+class headoffice{
 
+    addheadoffice(){
+        console.log("Hey I am the addheadoffice meted from headoffice class")
+    }
 
-let localstu = new student()
-localstu.details;
-localstu.marks;
-localstu.parents;
+}
+
+export default office;

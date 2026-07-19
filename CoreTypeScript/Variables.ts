@@ -15,5 +15,16 @@ const a2:number = 30; // This is allowed - different variable name
 console.log(a1);
 console.log(a2);
 
+class myclass{
+
+}
+
+function add(){
+
+ }
+
+export default myclass;
+// export default add;
+
 
 
